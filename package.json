@@ -1,0 +1,24 @@
+{
+  "name": "namegame",
+  "version": "1.0.0",
+  "description": "Front-end Automaton for the NameGame",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chromedriver": "^2.41.0",
+    "iedriver": "^3.14.1",
+    "jasmine": "^2.9.9",
+    "minimist": "^1.2.0",
+    "process": "^0.11.10",
+    "selenium-webdriver": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./jasmine.config.js",
+    "test-debug": "node ./jasmine.conf.js"
+  },
+  "author": "Clifton Lyons",
+  "license": "ISC"
+}
