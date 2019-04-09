@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/nameGame.spec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1005">
-              <caret line="67" column="51" lean-forward="true" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pageObjects/nameGame.po.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
+            <state relative-caret-position="1299">
               <caret line="103" column="39" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -34,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pages/BasePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="630">
               <caret line="42" column="23" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="23" />
             </state>
           </provider>
@@ -93,11 +102,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1080" />
-    <option name="height" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,17 +157,6 @@
             <path>
               <item name="NameGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="NameGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NameGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NameGame" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NameGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NameGame" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,24 +232,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553881237666</updated>
-      <workItem from="1553881238917" duration="178283000" />
+      <workItem from="1553881238917" duration="181258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178283000" />
+    <option name="totallyTimeSpent" value="181258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="-1080" width="1080" height="1920" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18130311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11573237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4972875" visible="true" weight="0.15081081" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4972875" visible="true" weight="0.28469387" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5027125" side_tool="true" weight="0.28469387" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -339,13 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
           <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -447,24 +436,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/nameGame.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/BasePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="630">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pageObjects/nameGame.po.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
+        <state relative-caret-position="1299">
           <caret line="103" column="39" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/nameGame.spec.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="51" lean-forward="true" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

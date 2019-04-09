@@ -51,7 +51,7 @@ describe('Name Game Feature', () => {
     });
 
     /**
-     * Took a shot a the bonus question but didn't quite get it correctly
+     * Took a shot at the bonus question but didn't quite get it correctly
      */
     xit('Should verify that failing to select one person’s name correctly makes that person appear more frequently than other “correctly selected” people', async () => {
         const options = {
