@@ -30,14 +30,14 @@ describe('Name Game Feature', () => {
         await nameGamePage.validatePageLoaded();
 
         count = await nameGamePage.elements.streak.getText();
-        await nameGamePage.selectAWrongAnswer();
+        await nameGamePage.selectWrongAnswer();
         await driver.sleep(500);
         countAfter = await nameGamePage.elements.streak.getText();
         expect(countAfter).toBeLessThan(count);
     });
 
     it('Should verify that tries and correct counter are being incremented after 10 random selections', async () => {
-        await nameGamePage.click10Photos();
+        await nameGamePage.click10RaandomPhotos();
         const countOnTries = await nameGamePage.elements.attempts.getText();
         const countOnCorrect = await nameGamePage.elements.correct.getText();
 
@@ -59,9 +59,9 @@ describe('Name Game Feature', () => {
             photos: await nameGamePage.elements.pictures.photo.findElements(),
             nameOnPhotos: await nameGamePage.elements.pictures.nameOnPhoto.findElements()
         };
-        const wrongName = await nameGamePage.selectAWrongAnswer(options);
+        const wrongName = await nameGamePage.selectWrongAnswer(options);
         await driver.sleep(500);
-        const correctName = await nameGamePage.selectCorrectAnswser(options);
+        const correctName = await nameGamePage.selectCorrectAnswer(options);
         await nameGamePage.validatePageLoaded();
 
         const count = await nameGamePage.wrongSelectionRepeats(wrongName, correctName);
