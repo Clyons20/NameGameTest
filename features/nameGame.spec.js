@@ -14,7 +14,7 @@ describe('Name Game Feature', () => {
     it('Should verify the "streak" counter is incrementing and name/displayed photos change after correct answer.', async () => {
         count = await nameGamePage.elements.streak.getText();
         const images = await nameGamePage.elements.pictures.image.findElements();
-        await nameGamePage.selectCorrectAnswser();
+        await nameGamePage.selectCorrectAnswer();
         await nameGamePage.validatePageLoaded();
 
         countAfter = await nameGamePage.elements.streak.getText();
@@ -25,8 +25,8 @@ describe('Name Game Feature', () => {
         expect(images).not.toContain(imagesAfter);
     });
 
-    it('Should Vrify the a multiple “streak” counter resets after getting an incorrect answer', async () => {
-        await nameGamePage.selectCorrectAnswser();
+    it('Should verify that the multiple “streak” counter resets after getting an incorrect answer', async () => {
+        await nameGamePage.selectCorrectAnswer();
         await nameGamePage.validatePageLoaded();
 
         count = await nameGamePage.elements.streak.getText();
@@ -37,11 +37,11 @@ describe('Name Game Feature', () => {
     });
 
     it('Should verify that tries and correct counter are being incremented after 10 random selections', async () => {
-        await nameGamePage.clickOnRandom10Photos();
+        await nameGamePage.click10Photos();
         const countOnTries = await nameGamePage.elements.attempts.getText();
         const countOnCorrect = await nameGamePage.elements.correct.getText();
 
-        await nameGamePage.selectCorrectAnswser();
+        await nameGamePage.selectCorrectAnswer();
         await nameGamePage.validatePageLoaded();
         const countOnTriesAfter = await nameGamePage.elements.attempts.getText();
         const countOnCorrectAfter = await nameGamePage.elements.correct.getText();
