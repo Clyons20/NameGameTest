@@ -50,22 +50,4 @@ describe('Name Game Feature', () => {
         expect(countOnCorrectAfter).toBeGreaterThan(countOnCorrect);
     });
 
-    /**
-     * Took a shot at the bonus question but didn't quite get it correctly
-     */
-    xit('Should verify that failing to select one person’s name correctly makes that person appear more frequently than other “correctly selected” people', async () => {
-        const options = {
-            nameToLookFor: await nameGamePage.elements.nameOfPerson.getText(),
-            photos: await nameGamePage.elements.pictures.photo.findElements(),
-            nameOnPhotos: await nameGamePage.elements.pictures.nameOnPhoto.findElements()
-        };
-        const wrongName = await nameGamePage.selectWrongAnswer(options);
-        await driver.sleep(500);
-        const correctName = await nameGamePage.selectCorrectAnswer(options);
-        await nameGamePage.validatePageLoaded();
-
-        const count = await nameGamePage.wrongSelectionRepeats(wrongName, correctName);
-        expect(count[0]).toBeGreaterThan(count[1]);
-    });
-
 });
